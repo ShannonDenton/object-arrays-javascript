@@ -1,0 +1,56 @@
+// chall 1
+let paris = {
+  name: "Paris",
+  country: "France",
+  language: "French",
+  temperature: 18,
+  capitalCity: true
+};
+console.log(paris.temperature);
+
+// chall 2
+
+let sydney = {
+  name: "Sydney",
+  country: "Australia",
+  language: "English",
+  temperature: 21,
+  capitalCity: "false"
+};
+console.log(sydney.temperature);
+
+// chall 3
+
+let australianCity = ["Melbourne", "Victoria", "Brisbane"];
+
+console.log(australianCity[0]);
+console.log(australianCity[2]);
+console.log(australianCity[3]);
+
+// chall 4
+
+let cities = [
+  {
+    name: "London",
+    country: "UK",
+    language: "English",
+    temperature: 18,
+    capitalCity: true
+  },
+  {
+    name: "New York",
+    country: "US",
+    language: "English",
+    temperature: 19,
+    capitalCity: false
+  },
+
+  {
+    name: "Miami",
+    country: "US",
+    language: "English",
+    temperature: 20,
+    capitalCity: false
+  }
+];
+console.log(cities.temperture);
